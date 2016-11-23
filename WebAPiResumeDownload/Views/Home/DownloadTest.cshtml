@@ -1,0 +1,10 @@
+﻿
+@{
+    ViewBag.Title = "Test";
+}
+
+<h2>断点传续测试下载</h2>
+<a href="../api/Simple/Download?fileName=UML.pdf" class="btn btn-primary">断点传续（普通下载）</a>
+<a href="../api/FileDownload/GetFile?fileName=UML.pdf" class="btn btn-primary">断点传续（上）</a>
+<a href="../api/FileDownload/GetFile?fileName=UML.pdf" class="btn btn-primary">断点传续（中）</a>
+<a href="../api/MemoryMappedFileDownload/GetFile?fileName=UML.pdf" class="btn btn-primary">内存映射断点传续（下）</a>
